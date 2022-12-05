@@ -73,7 +73,7 @@ class Comment(db.Model):
 
 
 # run only first time to create the database
-db.create_all()
+# db.create_all()
 
 
 # admin only decorator
